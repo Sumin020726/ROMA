@@ -1,9 +1,8 @@
-# ROMA
+# ROMA(Roommate Matching App)
 
-## [버그 기록](https://docs.google.com/presentation/d/1H_awmql93YOD6v-1pSeu13CaCOZjtBIWA9208dpQGys/edit?usp=sharing)
 
 ## 시스템 설계 다이어그램
-
+### 프로젝트 참여율(25%), 역할 : CI/CD 구축 및 인프라 설계, 개발 환경 구축
 
 
 1. **서비스 인프라 아키텍처**
@@ -74,3 +73,5 @@
 | 사용자 검색     | POST        | /chat/search/          | Request Body: username={검색할_아이디} <br> ID로 사용자를 검색하여 해당 채팅방으로 리다이렉트합니다. |   |
 | 채팅방 입장     | GET         | /chat/{other_user_pk}/ | 특정 사용자(other_user_pk)와의 1:1 채팅방에 입장합니다.                                |   |
 |            |             |                        |                                                                        |   |
+
+## [버그 기록](https://docs.google.com/presentation/d/1H_awmql93YOD6v-1pSeu13CaCOZjtBIWA9208dpQGys/edit?usp=sharing)
